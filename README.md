@@ -2,7 +2,7 @@
 
 ## Summary
 
-Welcome to the Javascript Carnival! It's a wonderful place full of exciting games and activities... Just kidding! All three of our games are broken. Please help us fix the carnival using your Javascript skills.
+Welcome to the JavaScript Carnival! It's a wonderful place full of exciting games and activities... Just kidding! All three of our games are broken. Please help us fix the carnival using your JavaScript skills.
 
 ## Timebox
 
@@ -23,7 +23,7 @@ Reflect             | 30 minutes
 
 ## The Games
 
-These games are all independent from each other, however they are somewhat listed in order of difficulty, so try fixing them from top to bottom. 
+These games are all independent from each other, however they are listed in order of difficulty so try fixing them in order. 
 
 [Inflate The Unicorn](./inflate-the-unicorn/inflate-the-unicorn-README.md)  
 These poor unicorns have balloons for horns. Write code that inflates them!
@@ -36,14 +36,6 @@ A dress-up game where you make a clown look fancy!
 
 ## Feedback!
 
-Once you have completed these exercises (or as much of them as you can handle!), go to your `my-reflections-sprint-5.md` using VS Code, add a `JS Carnival` heading, and answer the following questions.
-
-- What parts of these challenges did you enjoy? If we were to add more challenges, what would you like to have more of?
-
-- What parts weren't so good? Were there any parts that you felt stuck on?
-
-- Which parts made you feel confident?
-
-- What personally would you want changed to improve the carnival?
+Once you have completed these exercises (or as much of them as you can handle!) go to your `my-reflections-sprint-5.md` using VS Code and answer the questions under the `JS Carnival` heading.
 
 Add, commit, and push your answers to GitHub.
