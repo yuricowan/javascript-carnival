@@ -1,12 +1,11 @@
 [Home](../README.md)|
 ---|
 
-# ~~Squirt The Clown~~
 # Inflate The Unicorn
 
 ### Learning Competencies
 
-- Using Javascript to change HTML images
+- Using JavaScript to change HTML images
 - Calling functions with the `onclick` method
 - Conditionals
 - String concatenation
@@ -47,24 +46,18 @@ There are several ways you could do this, and it just depends what makes the mos
 
 6. If a unicorn has cycled through all the images and the balloon is full, clicking on them should pop up an alert on your page that says something like, "Unicorn Number `x` says thank you!". 
 
-Congratulations! You've successfully fixed the squirt the ~~clown~~ unicorn game and the crowds are eager to give it a go!
+Congratulations! You've successfully fixed the unicorn game and the crowds are eager to give it a go!
 
-Make sure you push your code up to github so we can all enjoy it!
+Make sure you push your code up to GitHub so we can all enjoy it!
 
 ## Reflection
 
-Open `my-reflections-sprint-5.md` from your reflections file in VS Code, add a `Inflate The Unicorn` heading, and add the following reflection questions from this challenge.
-
-- Did you learn anything new during this exercise? What was it?
-
-- Did you encounter issues completing any of the steps of this exercise? How did you resolve this?
-
-- If you were to replace the unicorn with another mystical animal of your choice, what would it be?  
+Open `my-reflections-sprint-5.md` from your reflections file in VS Code and answer the questions under the `Inflate The Unicorn` heading.
 
 Make sure you commit and push to GitHub.
 
 ## Stretch
 
--  Once you click on a satisfied unicorn, instead of popping up an alert, what else could happen?
+- Once you click on a satisfied unicorn, instead of popping up an alert, what else could happen?
 
 - Would adding some sound effects to this process make it more interesting? What sound does a unicorn make? 
