@@ -82,7 +82,7 @@ Once that's working, you're done! Push your code up to github and you can dress 
 
 ## Reflection
 
-Open `my-reflections-sprint-5.md` in VS Code and answer the questions under the `Dress a Clown` heading.
+Open `my-reflections-sprint-5.md` in VS Code and answer the questions under the `Dress The Clown` heading.
 
 Commit and push to GitHub.
 
