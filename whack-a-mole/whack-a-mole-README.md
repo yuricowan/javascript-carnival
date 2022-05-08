@@ -85,11 +85,7 @@ You're done! Push your code up to GitHub and Whack! That! Mole!
 
 ## Reflection
 
-Open `my-reflections-sprint-5.md` in VS Code, add a `Whack-a-Mole` heading, and add the following reflection questions from this challenge.
-
-- What was the hardest part of this exercise? 
-
-- Can you think of any different ways you could have accomplished the same outcome? 
+Open `my-reflections-sprint-5.md` in VS Code and answer the questions under the `Whack-a-Mole` heading.
 
 Commit and push to GitHub.
 
