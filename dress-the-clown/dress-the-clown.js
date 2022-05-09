@@ -22,6 +22,10 @@ function changeClothesLeft() {
     bodyIndex++
     head.src = `images/${bodyPart[bodyPartIndex]}${bodyIndex}.png`
     console.log(bodyIndex)
+  } else if (bodyIndex == 5) {
+    bodyIndex = 0
+    head.src = `images/${bodyPart[bodyPartIndex]}${bodyIndex}.png`
+    console.log(bodyIndex)
   }
 }
 
@@ -30,18 +34,29 @@ function changeClothesRight() {
     bodyIndex--
     head.src = `images/${bodyPart[bodyPartIndex]}${bodyIndex}.png`
     console.log(bodyIndex)
+  } else if (bodyIndex == 0) {
+    bodyIndex = 5
+    head.src = `images/${bodyPart[bodyPartIndex]}${bodyIndex}.png`
+    console.log(bodyIndex)
   }
 }
 
 function changeBodyPartUp() {
-  if (bodyIndex < 3) {
-    console.log(bodyPartIndex)
+  if (bodyPartIndex < 2) {
     bodyPartIndex++
+    console.log(bodyPartIndex)
+  } else if (bodyPartIndex == 2) {
+    bodyPartIndex = 0
+    console.log(bodyPartIndex)
   }
 }
 function changeBodyPartDown() {
-  if (bodyIndex > 0) {
+  if (bodyPartIndex > 0) {
     bodyPartIndex--
+    console.log(bodyPartIndex)
+  } else if (bodyPartIndex == 0) {
+    bodyPartIndex = 2
+    console.log(bodyPartIndex)
   }
 }
 
@@ -66,3 +81,7 @@ document.onkeydown = (e) => {
       break
   }
 }
+
+// create a loop where once you reach the maximum index it cycles back to zero
+// conditional if()
+// else if()
