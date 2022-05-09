@@ -14,74 +14,83 @@ let shoes = document.getElementById(`shoes`)
 // -- Declare body part indexes to cycle through clothes -- //
 let bodyIndex = 0
 let bodyPart = [`body`, `head`, `shoes`]
+let bodyPartHtmlId = [body, head, shoes]
 let bodyPartIndex = 1
 let e = ''
 
 function changeClothesLeft() {
   if (bodyIndex < 5) {
     bodyIndex++
-    head.src = `images/${bodyPart[bodyPartIndex]}${bodyIndex}.png`
-    console.log(bodyIndex)
+    bodyPartHtmlId[
+      bodyPartIndex
+    ].src = `images/${bodyPart[bodyPartIndex]}${bodyIndex}.png`
+    console.log(`BodyIndex = ${bodyIndex}`)
   } else if (bodyIndex == 5) {
     bodyIndex = 0
-    head.src = `images/${bodyPart[bodyPartIndex]}${bodyIndex}.png`
-    console.log(bodyIndex)
+    bodyPartHtmlId[
+      bodyPartIndex
+    ].src = `images/${bodyPart[bodyPartIndex]}${bodyIndex}.png`
+    console.log(`BodyIndex = ${bodyIndex}`)
   }
 }
 
 function changeClothesRight() {
   if (bodyIndex > 0) {
     bodyIndex--
-    head.src = `images/${bodyPart[bodyPartIndex]}${bodyIndex}.png`
-    console.log(bodyIndex)
+    bodyPartHtmlId[
+      bodyPartIndex
+    ].src = `images/${bodyPart[bodyPartIndex]}${bodyIndex}.png`
+    console.log(`BodyIndex = ${bodyIndex}`)
   } else if (bodyIndex == 0) {
     bodyIndex = 5
-    head.src = `images/${bodyPart[bodyPartIndex]}${bodyIndex}.png`
-    console.log(bodyIndex)
+    bodyPartHtmlId[
+      bodyPartIndex
+    ].src = `images/${bodyPart[bodyPartIndex]}${bodyIndex}.png`
+    console.log(`BodyIndex = ${bodyIndex}`)
   }
 }
 
 function changeBodyPartUp() {
   if (bodyPartIndex < 2) {
     bodyPartIndex++
-    console.log(bodyPartIndex)
+    console.log(`BodyPartIndex = ${bodyPartIndex}`)
   } else if (bodyPartIndex == 2) {
     bodyPartIndex = 0
-    console.log(bodyPartIndex)
+    console.log(`BodyPartIndex = ${bodyPartIndex}`)
   }
 }
 function changeBodyPartDown() {
   if (bodyPartIndex > 0) {
     bodyPartIndex--
-    console.log(bodyPartIndex)
+    console.log(`BodyPartIndex = ${bodyPartIndex}`)
   } else if (bodyPartIndex == 0) {
     bodyPartIndex = 2
-    console.log(bodyPartIndex)
+    console.log(`BodyPartIndex = ${bodyPartIndex}`)
   }
 }
 
+// This function identifies arrow key actions based on the keycode output
 document.onkeydown = (e) => {
   e = e || window.event
   switch (e.keyCode) {
+    // LEFT
     case 37:
       changeClothesLeft()
-      console.log('left')
       break
+    // UP
     case 38:
       changeBodyPartUp()
-      console.log('up')
       break
+    // RIGHT
     case 39:
       changeClothesRight()
-      console.log('right')
       break
+    // DOWN
     case 40:
       changeBodyPartDown()
-      console.log('down')
       break
   }
 }
 
-// create a loop where once you reach the maximum index it cycles back to zero
-// conditional if()
-// else if()
+// up arrow increases bodypartindex
+// left/right arrow changes two different body
