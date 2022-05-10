@@ -7,7 +7,6 @@ let images = document.getElementsByTagName('img')
 let unicorn0 = document.getElementById('unicorn0')
 let unicorn1 = document.getElementById('unicorn1')
 let unicorn2 = document.getElementById('unicorn2')
-
 let myUnicorns = [unicorn0, unicorn1, unicorn2]
 
 let unicorn0Index = 0
@@ -41,4 +40,7 @@ function inflateUnicornHorn(unicornIndex, myUnicorn) {
 
 isMyBalloonFull = (number) => {
   if (number == 3) horseNoise.play()
+
+  // I decided to remove my alert
+  // alert(`Thank you human`)
 }
