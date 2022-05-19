@@ -7,7 +7,7 @@ console.log('Whack-a-Mole!')
 let cells = document.getElementsByTagName('TD')
 let imageElement = document.createElement('img')
 let whackSound = new Audio(`noot-noot.mp3`)
-imageElement.src = './mole.png'
+imageElement.src = './mole.PNG'
 imageElement.className = 'moleSize'
 
 // -- Random number generator -- //
